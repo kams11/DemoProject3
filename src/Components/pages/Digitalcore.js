@@ -20,13 +20,13 @@ import { BsChevronDown } from 'react-icons/bs';
 
 const Digitalcore = () => {
 
-    // const [toggleT1,setToggleT1] = useState(false);
+    const [toggleT1,setToggleT1] = useState(false);
 
-    // const toggleHandlerT1 =(e) =>{
-    //         e.preventDefault();
-    //     setToggleT1(!toggleT1);
+    const toggleHandlerT1 =(e) =>{
+            e.preventDefault();
+        setToggleT1(!toggleT1);
 
-    // }
+    }
     
   return (
     <>
@@ -70,15 +70,11 @@ const Digitalcore = () => {
                 <button><BiSearchAlt2/></button> 
                  <button><AiOutlineClear/></button>
                 </div> 
-          {/* <div className={DA.iconsdiv2} > <button><BiSearchAlt2/></button> 
-          <span> <button className={DA.clrbtn}><AiOutlineClear/></button> </span>
-            
-
-</div> */}
+          
 </div>
       
     <div className={DA.btnsdiv}>
-      <button >Object</button>
+      <button onClick={toggleHandlerT1} >Object</button>
       <button>Business mapping</button>
       <button>Technical Steps</button>
       <button>Technical Mapping</button>
@@ -106,7 +102,7 @@ const Digitalcore = () => {
 
       <div className={DA.iconsdiv3}> <button> Download<BsChevronDown/>  </button></div>
     </div>
-    {/* {toggleT1?<Demo/>:null} */}
+    {toggleT1?<Demo/>:null}
     </section>
     </>
   )

@@ -13,7 +13,7 @@ const Navbar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" style={{fontWeight:"bold",fontSize:"14px"}}>
-        <li class="nav-item" >
+        {/* <li class="nav-item" >
           <Link to="/individuals" class="nav-link active"  aria-current="page" href="#">Individuals</Link>
         </li>
         <li class="nav-item" style={{paddingLeft:"20px"}}>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> */}
       </ul>
       
       <form class="d-flex" style={{marginRight:"65px"}}>
@@ -57,23 +57,7 @@ const Navbar = () => {
   </div>
 </nav>
 
-    {/* <nav id="navbar" className="navbar" style={{height:"100px",background:"white",position:"fixed",width:"100%",paddingLeft:"52px",paddingRight:"52px",boxSizing:"border-box"}}>
-    <div>
-        <Link to={"/"} class="navbar-brand" style={{width:"330px",display:"inline-flex",textDecoration:"none",paddingRight:"80px"}} >
-        <img style={{paddingTop:"2px",height:"50px",width:"fit-content"}} className='logo' src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="DemoApp" /> <h1 style={{color:"rgb(26, 145, 243)",fontSize:"30px",padding:"5px"}}>DemoApp</h1></Link>
-        </div>
-    <div>
-
-    </div> 
-    <div className='logindiv'>
-    
-      <li class="nav-item" style={{listStyle:"none"}}>
-         <Link to={"/login"}  style={{ fontWeight:"bold",marginRight:"20px",height:"20px",marginTop:"5px"}}> Log In </Link>
-        </li>
-       <Link to={"/getstarted"}> <button style={{width:"90px",height:"35px",fontSize:"12px",backgroundColor:"rgb(59, 149, 252)",borderRadius:"9px",border:"none",color:"white"}} class="btn btn-primary" type="submit">Get Started</button> </Link>
-      
-    </div>   
-</nav> */}
+   
     </>
   )
 }

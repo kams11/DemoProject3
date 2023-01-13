@@ -32,7 +32,7 @@ const Login = () => {
         <form style={{display:"inline-flex",marginLeft:"100px",maxWidth:"fit-content"}}>
                 
                <div class="mb-6"> <input type="email" class="form-control-lg" id="exampleInputEmail1" placeholder='Enter your email' aria-describedby="emailHelp" style={{width:"350px",height:"60px",border:"1px solid grey",borderRadius:"5px"}}/>
-               <button class="btn btn-lg btn-primary" onClick={loginHandler} style={{height:"60px",marginTop:"-9px",marginLeft:"10px"}}>Log in</button>
+               <button type="submit" class="btn btn-lg btn-primary" onClick={loginHandler} style={{height:"60px",marginTop:"-9px",marginLeft:"10px"}}>Log in</button>
                </div>
           </form>
           <div className="createaccount" style={{textAlign:"initial",paddingLeft:"100px",paddingTop:"30px"}}>

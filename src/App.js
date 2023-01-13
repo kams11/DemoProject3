@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-//import Navbar from './Components/Navbar'
-//import Homepage from './Components/Homepage';
+import Navbar from './Components/Navbar'
+import Homepage from './Components/Homepage';
 import Login from './Components/Login';
 import Getstarted from './Components/Getstarted';
 import Sidebar from './Components/pages/Sidebar';
@@ -20,15 +20,15 @@ const App = () => {
     <div className="App">
       
       <Router>
-      {/* <Navbar/> */}
+      <Navbar/>
         <Routes>
-        {/* <Route path="/" element={<Homepage/>} /> */}
+        <Route path="/" element={<Homepage/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/getstarted" element={<Getstarted/>} />
         <Route path="/sidebar" element={<Sidebar/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/analytics" element={<Analytics/>} />
-        <Route path="/" element={<Digitalcore/>} />
+        <Route path="/digitalcore" element={<Digitalcore/>} />
         <Route path="/architecture" element={<Architecture/>} />
         <Route path="/documentation" element={<Documentation/>} />
         <Route path="/team" element={<Team/>} />
