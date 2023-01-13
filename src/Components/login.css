@@ -1,0 +1,19 @@
+.logincontainer {
+    display: flex;
+}
+.lc1 {
+    padding-top: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    
+}
+.lc2 {
+    display: flex;
+    width: 50%;
+   
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y :120px; ;
+}

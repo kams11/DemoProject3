@@ -1,0 +1,61 @@
+.productcont{
+    width:100%;
+    padding-bottom:20px;
+    padding-top: 60px;
+    align-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+.tabhead1,.tabhead2{
+    width: 200px;
+    text-align: center;
+    font-family: 'Unna', serif;
+    border-right: 1px solid rgba(128, 128, 128, 0.568);
+   
+       
+}
+.tdata{
+    border: 1px solid silver;
+    background-color: white;
+}
+tr:first-child {
+    width: 300px;
+    height: 30px;
+    
+}
+.butn1{
+    width:80px;
+    height:20px;
+    border-radius:8px;
+    border-width:1px;
+    background-color:rgb(189, 6, 6);
+    color:white;
+    border: none;
+}
+.butn1:hover{
+    background-color:red;
+    color:white;
+    border-radius:8px;
+    font-weight: 600;
+   
+}
+.butn2{
+    margin-top: 5px;
+    width: 60px;
+    height: 20px;
+    border-radius:8px;
+    border-width:1px;
+    color:rgb(71, 167, 245);
+    border-color:rgb(71, 167, 245);
+    background-color: white;
+}
+.butn2:hover{
+    background-color:rgb(71, 167, 245);
+    color: white;
+ 
+    
+}
+.protable{
+    width: 100%;
+    justify-content: center;
+    
+}

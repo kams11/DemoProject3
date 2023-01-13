@@ -1,0 +1,72 @@
+.forms{
+    width: 100%;
+    display: grid;
+    margin-top: 40px;
+    padding-left: 30px;
+    grid-template-columns: 240px 240px 240px 240px 100px 100px;
+}
+
+.fclabel{
+    width:180px;
+    height: 30px;
+    text-align:left;
+    padding-left: 2px;
+}
+
+.fcfield,.fcinp{
+    width:220px;
+    height: 30px;
+    border-radius: 4px;
+    border:2px  solid #80808052;
+}
+
+.btnsdiv{
+    width: 100%;
+    margin-top: 20px;
+    display:inline-flex;
+    place-items: left;
+    padding-left: 40px;
+   
+}
+.btnsdiv>button{
+    /* background-color: rgb(164, 164, 174);  */
+    margin-right: 30px;
+    padding: 5px;
+    border: 0.5px solid silver;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.iconsdiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45% 1fr;
+    justify-items: left;
+    margin-top: 12px;
+}
+
+.iconsdiv1,.iconsdiv2{
+    padding-left: 40px;
+}
+.iconsdiv1>button,.iconsdiv2>button{
+    margin-left: 4px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+}
+.iconsdiv3>button{
+    border:none;
+    background-color: rgba(72, 72, 230, 0.888);
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.check{
+    margin-top: 13px;
+    margin-left: -35px;
+}
+
+.search{
+    margin-top: 13px;
+    margin-left: -60px;
+}
+

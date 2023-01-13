@@ -1,0 +1,16 @@
+.logo {
+    width: 45px;
+    height: fit-content;
+    margin-left: 57px;
+    
+}
+#navbar {
+    box-shadow: 10px 2px 5px 2px rgba(227, 233, 233, 0.897);
+}
+
+#navbarText>li>a {
+    color: black;
+}
+#navbarText>ul>li>a:hover {
+    color: rgb(59, 149, 252);
+}
